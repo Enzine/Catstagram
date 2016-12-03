@@ -1,6 +1,6 @@
 # Catstagram
 
-Fun application to upload images of cats.
+Fun application where you can upload images of cats.
 
 
 *NOTE no cats were harmed during the process*
