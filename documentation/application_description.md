@@ -1,3 +1,5 @@
+#Application description
+
 Catstagram is an application for sharing cat profiles.
 
 **Visitors** are able to see the front page without logging in.

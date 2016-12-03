@@ -10,4 +10,4 @@ Creators Sonja Mäkipaja, Elsa Nyrhinen, Harri Kähkönen
 ## Documentation
 [Application description](documentation/application_description.md) |
 [Use cases](documentation/usecases.md) |
-[Update infomation](documentation/timeline.md) |
+[Update infomation](documentation/updates.md) |

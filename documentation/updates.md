@@ -1,8 +1,8 @@
-`Web-palvelinohjelmointi Java syksy 2017`
+#####Web-palvelinohjelmointi Java syksy 2017
 
-Sonja Mäkipaja, Elsa Nyrhinen & Harri Kähkönen
+`Sonja Mäkipaja, Elsa Nyrhinen & Harri Kähkönen`
 
-### Timeline
+##Updates
 When | Who | What
 --------------- | ----- | ------
 03.12.2016 | Sonja | Github repo created, documentation started
