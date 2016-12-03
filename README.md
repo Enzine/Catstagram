@@ -11,4 +11,4 @@ Creators Sonja Mäkipaja, Elsa Nyrhinen, Harri Kähkönen
 [Application description](documentation/application_description.md) |
 [Use cases](documentation/usecases.md) |
 [Update infomation](documentation/updates.md) |
-[Features left out](documentation/features_not_implemented) |
+[Features left out](documentation/features_not_implemented.md) |
