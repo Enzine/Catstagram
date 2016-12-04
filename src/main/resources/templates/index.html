@@ -6,13 +6,17 @@
     </head>
     <body>
         <h1>Miau to Catstagram!</h1>
-         <h2>Top-10 Most Followed Cats!</h2>
- 
+        <h2>Top-10 Most Followed Cats!</h2>
+
         <ol>
             <li th:each="cat : ${cats}">
                 <span th:text="${cat.name + ': ' + cat.age + ' vuotta, 0 seuraajaa'}">msg</span>
             </li>
         </ol>
-         
+
+        <form th:action="@{/logout}" method="POST">
+            <input type="submit" value="Logout"></input>
+        </form>
+
     </body>
 </html>

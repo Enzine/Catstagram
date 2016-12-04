@@ -49,4 +49,9 @@ public class DefaultController {
     public String home() {
         return "redirect:/cats";
     }
+    
+    @RequestMapping("/logout")
+    public String logout() {
+        return "redirect:/cats";
+    }
 }
