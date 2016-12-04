@@ -1,0 +1,9 @@
+
+
+/**
+ *
+ * @author sonjamak
+ */
+class Cat {
+    
+}

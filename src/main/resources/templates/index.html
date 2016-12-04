@@ -5,6 +5,14 @@
         <meta charset="UTF-8"/>
     </head>
     <body>
-        <div>This is a test.</div>
+        <h1>Miau to Catstagram!</h1>
+         <h2>Top-10 Most Followed Cats!</h2>
+ 
+        <ol>
+            <li th:each="cat : ${cats}">
+                <span th:text="${cat.name + ': ' + cat.age + ' vuotta, 0 seuraajaa'}">msg</span>
+            </li>
+        </ol>
+         
     </body>
 </html>
