@@ -7,7 +7,6 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
  *
  * @authors Sonja Mäkipaja, Elsa Nyrhinen & Harri Kähkönen
  */
-
 @SpringBootApplication
 public class CatstagramApplication {
 

@@ -5,7 +5,7 @@ import org.springframework.data.jpa.repository.JpaRepository;
 
 /**
  *
- * @author sonjamak
+ * @authors Sonja Mäkipaja, Elsa Nyrhinen & Harri Kähkönen
  */
 public interface CatRepository extends JpaRepository<Cat, Long> {
 }

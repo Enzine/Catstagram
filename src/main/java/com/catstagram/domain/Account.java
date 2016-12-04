@@ -10,7 +10,6 @@ import org.springframework.data.jpa.domain.AbstractPersistable;
  *
  * @authors Sonja Mäkipaja, Elsa Nyrhinen & Harri Kähkönen
  */
-
 @Entity
 public class Account extends AbstractPersistable<Long> {
  

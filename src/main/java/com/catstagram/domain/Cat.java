@@ -8,7 +8,7 @@ import org.springframework.data.jpa.domain.AbstractPersistable;
 
 /**
  *
- * @author sonjamak
+ * @authors Sonja Mäkipaja, Elsa Nyrhinen & Harri Kähkönen
  */
 @Entity
 public class Cat extends AbstractPersistable<Long> {

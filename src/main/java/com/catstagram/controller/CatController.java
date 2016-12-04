@@ -11,7 +11,7 @@ import org.springframework.web.bind.annotation.RequestMethod;
 
 /**
  *
- * @author sonjamak
+ * @authors Sonja Mäkipaja, Elsa Nyrhinen & Harri Kähkönen
  */
 @Controller
 public class CatController {
