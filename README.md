@@ -12,4 +12,4 @@ Creators Sonja Mäkipaja, Elsa Nyrhinen, Harri Kähkönen
 [Use cases](documentation/usecases.md) |
 [Update infomation](documentation/updates.md) |
 [Features left out](documentation/features_not_implemented.md) |
-[Catstagrama.herokuapps.com](http://catstagrama.herokuapps.com)
+[catstagrama.herokuapp.com](http://catstagrama.herokuapp.com)
