@@ -17,6 +17,6 @@ public class AccountController {
     public String logout() {
         Authentication auth = SecurityContextHolder.getContext().getAuthentication();
         auth.setAuthenticated(false);
-        return "redirect:/cats";
+        return "start";
     }
 }

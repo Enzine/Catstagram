@@ -38,20 +38,25 @@ public class DefaultController {
         user1 = userDetailsRepository.save(user1);
 
         Account user2 = new Account();
-        user2.setUsername("katty");
+        user2.setUsername("catty");
         user2.setPassword(passwordEncoder.encode("kit"));
         user2.setAuthorities(Arrays.asList("USER", "ADMIN"));
 
         user2 = userDetailsRepository.save(user2);
     }
 
-    @RequestMapping("/")
+    @RequestMapping(value = "/", method = RequestMethod.GET)
     public String home() {
-        return "redirect:/cats";
+        return "start";
     }
     
-    @RequestMapping("/logout")
+    @RequestMapping(value = "/start", method = RequestMethod.GET) 
+    public String start() {
+        return "start";
+    }
+    
+    @RequestMapping(value = "/logout", method = RequestMethod.GET)
     public String logout() {
-        return "redirect:/cats";
+        return "start";
     }
 }

@@ -30,7 +30,9 @@ public class SecurityConfiguration extends WebSecurityConfigurerAdapter {
         // pääsee vapaasti. Tämän lisäksi uloskirjautumiseen tarjotaan
         // mahdollisuus kaikille. 
         http.authorizeRequests()
-                .antMatchers(HttpMethod.GET, "/cats").permitAll()
+                .antMatchers(HttpMethod.GET, "/start").permitAll()
+                .antMatchers(HttpMethod.GET, "/img/*").permitAll()
+                .antMatchers(HttpMethod.GET, "/").permitAll()
                 .anyRequest().authenticated().and()
                 .formLogin().permitAll().and()
                 .logout().permitAll();
