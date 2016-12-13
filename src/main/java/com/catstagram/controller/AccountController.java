@@ -19,4 +19,9 @@ public class AccountController {
         auth.setAuthenticated(false);
         return "start";
     }
+    
+    @RequestMapping(value = "/login", method = RequestMethod.GET)
+    public String login() {
+        return "redirect:/cats";
+    }
 }

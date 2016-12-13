@@ -3,20 +3,25 @@
     <head>
         <title>Miau to Catstagram!</title>
         <meta charset="UTF-8"/>
+        <style>
+            .center { text-align: center; list-style-position:inside;}
+        </style>
     </head>
-    <body>
-        <h1>Miau to Catstagram!</h1>
-        <h2>Top-10 Most Followed Cats!</h2>
+    <body background="img/back.jpg">
+        <div align ="center">
+            <h1>You have entered Catstagram</h1>
+            <h2>Here are our Top-10 Most Followed Cats!</h2>
 
-        <ol>
-            <li th:each="cat : ${cats}">
-                <span th:text="${cat.name + ': ' + cat.age + ' vuotta, 0 seuraajaa'}">msg</span>
-            </li>
-        </ol>
+            <ol class="center">
+                <li th:each="cat : ${cats}">
+                    <span th:text="${cat.name + ': ' + cat.age + ' vuotta, 0 seuraajaa'}">msg</span>
+                </li>
+            </ol>
 
-        <form th:action="@{/logout}" method="POST">
-            <input type="submit" value="Logout"></input>
-        </form>
-
+            <form th:action="@{/logout}" method="POST">
+                <input type="submit" value="Logout"></input>
+            </form>
+   
+        </div>
     </body>
 </html>
