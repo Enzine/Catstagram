@@ -4,6 +4,14 @@
     <head>
         <title>Sign up</title>
         <meta charset="UTF-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Lato" type="text/css"></link>
+
+        <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons"></link>
+        <link rel="stylesheet" href="https://code.getmdl.io/1.2.1/material.indigo-pink.min.css"></link>
+        <link rel="stylesheet" href="img/kiss.css" type="text/css"></link>
+        <script src="https://code.getmdl.io/1.2.1/material.min.js"></script>
+        
     </head>
     <body>
         <h1>Sign up for Le Dance!</h1>
@@ -22,7 +30,7 @@
                     <td th:if="${#fields.hasErrors('email')}" th:errors="*{email}">Email Virheviesti</td>
                 </tr>
                 <tr>
-                    <td><button type="submit">Submit</button></td>
+                    <td><button type="submit" value="Sign up" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--primary">Sign up</button></td>
                 </tr>
             </table>
         </form>
