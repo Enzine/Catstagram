@@ -61,5 +61,10 @@ public class DefaultController {
     public String enter() {
         return "redirect:/cats";
     }
+    
+    @RequestMapping(value = "/regis", method = RequestMethod.POST)
+   public String register() {
+        return "redirect:/registrations";
+    }
 
 }
