@@ -29,7 +29,6 @@ public class CustomUserDetailsService implements UserDetailsService {
         if (account == null) {
             throw new UsernameNotFoundException("No such user: " + username);
         }
- 
          
         List<SimpleGrantedAuthority> authorities = new ArrayList<>();
         for (String authority : account.getAuthorities()) {
